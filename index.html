@@ -9,6 +9,7 @@
   <h1>Volunteer Form</h1>
   <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
     <fieldset>
+
       <h3>My Info</h3>
       <p>
         <label for="first_name">First Name: </label>
@@ -32,7 +33,7 @@
         <label for="male">Male</label>
         <input type="radio" id="female" name="gender_field" value="Female">
         <label for="female">Female</label>
-      </p>
+       </p>
       <p>
         <label for="age">Age: </label>
         <select name="age_field" id="age">
@@ -46,8 +47,10 @@
         </select>
       </p>
     </fieldset>
+
     <h3>My Avalibility</h3>
     <fieldset>
+
       <p>Days Avalible:</p>
       <p>
         <input type="checkbox" id="Sunday" value="Sunday" name="available_field[]">
@@ -78,17 +81,15 @@
         <input type="checkbox" id="Saturday" value="Saturday" name="available_field[]">
         <label for="Saturday">Saturday</label>
       </p>
-      <p>
-        Any Comments?
-      </p>
+      <p>Any Comments?</p>
       <p>
         <textarea name="comments_field" ></textarea>
       </p>
     </fieldset>
+    
     <p>
       <input type="submit" value="Send Me">
     </p>
   </form>
-  
 </body>
 </html>
